@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2F1F8"
+    tools:context=".MediterraneanFood">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="337dp"
+        android:layout_height="51dp"
+        android:fontFamily="serif"
+        android:text="@string/SixthPageHeader"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName15"
+        android:layout_width="236dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="88dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/menemen_rs_210"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/menemen_rs_210"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName16"
+        android:layout_width="236dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/hummus_rs_250"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/hummus_rs_250"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName15" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName23"
+        android:layout_width="242dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/lentils_yogurt_rs_350"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/lentils_yogurt_rs_350"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName16" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName24"
+        android:layout_width="244dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/paella_rs221"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/paella_rs221"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName23" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName25"
+        android:layout_width="245dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/baba_ganoush_rs_150"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/baba_ganoush_rs_150"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName24" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="107dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="88dp"
+        android:text="@string/SixthPageButton1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName15"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="113dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/SixthPageButton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName16"
+        app:layout_constraintTop_toBottomOf="@+id/button22" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="101dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/SixthPageButton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.327"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName23"
+        app:layout_constraintTop_toBottomOf="@+id/button23" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="106dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/SixthPageButton4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName24"
+        app:layout_constraintTop_toBottomOf="@+id/button24" />
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="104dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/SixthPageButton5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName25"
+        app:layout_constraintTop_toBottomOf="@+id/button31" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="146dp"
+        android:layout_height="65dp"
+        android:text="@string/MediterrianDishEmoji"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+</androidx.constraintlayout.widget.ConstraintLayout>

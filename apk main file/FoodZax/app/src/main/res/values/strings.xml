@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">FoodZax 🍽️</string>
+    <string name="grid">FirstLogo</string>
+    <string name="heading">Welcome To FoodZax</string>
+    <string name="middle">FOOD TASTES  BETTER WHEN YOU EAT IT WITH YOUR FAMILY</string>
+    <string name="visit_the_app">Visit The App</string>
+
+    <string name="SecoundPageImage1">Image1</string>
+    <string name="SecoundPageItem1">N-Indian Food</string>
+    <string name="SecoundPageButton2">SEE ITEMS</string>
+
+    <string name="SecoundPageImage2">Image2</string>
+    <string name="SecoundPageItem2">Chinese Food</string>
+    <string name="SecoundPageButton3">SEE ITEMS</string>
+
+    <string name="SecoundPageImage3">Image3</string>
+    <string name="SecoundPageItem3">Italian Food</string>
+    <string name="SecoundPageButton4">SEE ITEMS</string>
+
+    <string name="SecoundPageImage4">Image4</string>
+    <string name="SecoundPageItem4">Mediterranean</string>
+    <string name="SecoundPageButton5">SEE ITEMS</string>
+
+    <string name="SecoundPageImage5">Image5</string>
+    <string name="SecoundPageItem5">S-Indian Food</string>
+    <string name="SecoundPageButton6">SEE ITEMS</string>
+    <string name="SecoundPageHeading">  All Dishes...❤️</string>
+
+
+    <string name="sagg_mutton_rs_350">Sagg Mutton   Rs:350</string>
+    <string name="butter_chicken_rs_190">Butter Chicken   Rs:190</string>
+    <string name="aloo_gobi_rs_110">Aloo Gobi Rs:110</string>
+    <string name="rajma_chawal_rs_90">Rajma Chawal   Rs:90</string>
+    <string name="aloo_paratha_rs_60">Aloo Paratha  Rs:60</string>
+    <string name="palak_paneer_rs_220">Palak Paneer  Rs:220</string>
+    <string name="dum_aloo_rs_110">Dum Aloo Rs:110</string>
+    <string name="veg_pulao_rs_180">Veg Pulao Rs:180</string>
+
+
+    <string name="ThirdPageButton1">ADD TO CART +</string>
+    <string name="ThirdPageButton2">ADD TO CART +</string>
+    <string name="ThirdPageButton3">ADD TO CART +</string>
+    <string name="ThirdPageButton4">ADD TO CART +</string>
+    <string name="ThirdPageButton5">ADD TO CART +</string>
+    <string name="ThirdPageButton6">ADD TO CART +</string>
+    <string name="ThirdPageButton7">ADD TO CART +</string>
+    <string name="ThirdPageButton8">ADD TO CART +</string>
+
+    <string name="ThirdPageHeader">North-Indian-Dishes</string>
+
+    <string name="ForthPageHeader">Chinese-Dishes</string>
+
+    <string name="chowmein_rs_100">Chowmein Rs:100</string>
+    <string name="manchow_soup_rs_110">Manchow Soup Rs:110</string>
+    <string name="spring_rolls_rs_60">Spring Rolls Rs:60</string>
+    <string name="chillichicken_rs_180">Chillichicken Rs:180</string>
+    <string name="darsaan_rs_200">Darsaan Rs:200</string>
+    <string name="chop_suey_rs_250">Chop Suey Rs:250</string>
+
+    <string name="ForthPageButton1">ADD TO CART +</string>
+    <string name="ForthPageButton2">ADD TO CART +</string>
+    <string name="ForthPageButton3">ADD TO CART +</string>
+    <string name="ForthPageButton4">ADD TO CART +</string>
+    <string name="ForthPageButton5">ADD TO CART +</string>
+    <string name="ForthPageButton6">ADD TO CART +</string>
+
+    <string name="FifthPageHeader">Italian-Dishes</string>
+    <string name="pasta_rs_50">Pasta Rs:50</string>
+    <string name="FfthPageButton1">ADD TO CART +</string>
+    <string name="panzenella_rs_120">Panzenella Rs:120</string>
+    <string name="FifthPageButton2">ADD TO CART +</string>
+    <string name="mushroom_risotto_rs_330">Mushroom Risotto Rs:330</string>
+    <string name="FifthPageButton3">ADD TO CART +</string>
+    <string name="bruschetta_rs_450">Bruschetta Rs:450</string>
+    <string name="FifthPageButton4">ADD TO CART +</string>
+    <string name="lasagne_rs_399">Lasagne Rs:399</string>
+    <string name="FifthPageButton5">ADD TO CART +</string>
+    <string name="masala_mac_rs_110">Masala Mac Rs:110</string>
+    <string name="FifthPageButton6">ADD TO CART +</string>
+
+    <string name="SixthPageHeader">Mediterranean-Dishes</string>
+    <string name="menemen_rs_210">Menemen Rs:210</string>
+    <string name="hummus_rs_250">Hummus Rs:250</string>
+    <string name="lentils_yogurt_rs_350">Lentils Yogurt Rs:350</string>
+    <string name="paella_rs221">Paella Rs221</string>
+    <string name="baba_ganoush_rs_150">Baba Ganoush Rs:150</string>
+    <string name="SixthPageButton1">ADD TO CART +</string>
+    <string name="SixthPageButton2">ADD TO CART +</string>
+    <string name="SixthPageButton3">ADD TO CART +</string>
+    <string name="SixthPageButton4">ADD TO CART +</string>
+    <string name="SixthPageButton5">ADD TO CART +</string>
+
+    <string name="SevenPageHeader">South-Indian-Dishes</string>
+    <string name="vadas_rs_40">Vadas Rs:40</string>
+    <string name="upama_rs_60">Upama Rs:60</string>
+    <string name="idli_rs_20">Idli Rs:20</string>
+    <string name="masala_dosa_rs_80">Masala Dosa Rs:80</string>
+    <string name="sandige_rs_100">Sandige Rs:100</string>
+    <string name="SevenPageButton1">ADD TO CART +</string>
+    <string name="SevenPageButton2">ADD TO CART +</string>
+    <string name="SevenPageButton3">ADD TO CART +</string>
+    <string name="SevenPageButton4">ADD TO CART +</string>
+    <string name="SevenPageButton5">ADD TO CART +</string>
+    <string name="FirstButton">WELCOME</string>
+    <string name="FirstPageFirstButton">NAMASTE 🙏</string>
+    <string name="SouthIndianImoji">🥘</string>
+    <string name="MediterrianDishEmoji">🍲</string>
+    <string name="ItalianEmoji">🍜</string>
+    <string name="ChiniesEmoji">🥡</string>
+    <string name="NorthIndianEmoji">🍛</string>
+    <string name="Cart">Cart 🛒</string>
+    <string name="UnderMaintenancee">Under Maintenance 🔧</string>
+    <string name="Sorry">Sorry :( 🙁</string>
+
+
+</resources>

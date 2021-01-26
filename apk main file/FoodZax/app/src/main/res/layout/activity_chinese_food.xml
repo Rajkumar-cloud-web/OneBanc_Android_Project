@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2F1F8"
+    tools:context=".ChineseFood">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="201dp"
+        android:layout_height="45dp"
+        android:fontFamily="serif"
+        android:text="@string/ForthPageHeader"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:text="Chinese-Dishes" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName17"
+        android:layout_width="279dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/chowmein_rs_100"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/chowmein_rs_100"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName18"
+        android:layout_width="283dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/manchow_soup_rs_110"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/manchow_soup_rs_110"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName17" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName19"
+        android:layout_width="281dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/spring_rolls_rs_60"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/spring_rolls_rs_60"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName18" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName20"
+        android:layout_width="283dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/chillichicken_rs_180"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/chillichicken_rs_180"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName19" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName21"
+        android:layout_width="281dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/darsaan_rs_200"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/darsaan_rs_200"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName20" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName22"
+        android:layout_width="286dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/chop_suey_rs_250"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/chop_suey_rs_250"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName21" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="114dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/ForthPageButton1"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName17"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="114dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/ForthPageButton2"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName18"
+        app:layout_constraintTop_toBottomOf="@+id/button25" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="114dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/ForthPageButton3"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName19"
+        app:layout_constraintTop_toBottomOf="@+id/button26" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="114dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/ForthPageButton4"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName20"
+        app:layout_constraintTop_toBottomOf="@+id/button27" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="114dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/ForthPageButton5"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName21"
+        app:layout_constraintTop_toBottomOf="@+id/button28" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="114dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/ForthPageButton6"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName22"
+        app:layout_constraintTop_toBottomOf="@+id/button29" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="115dp"
+        android:layout_height="60dp"
+        android:text="@string/ChiniesEmoji"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+</androidx.constraintlayout.widget.ConstraintLayout>

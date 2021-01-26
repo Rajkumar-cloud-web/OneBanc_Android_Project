@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2F1F8"
+    tools:context=".ItalianFood">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="266dp"
+        android:layout_height="41dp"
+        android:fontFamily="serif"
+        android:text="@string/FifthPageHeader"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="256dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/pasta_rs_50"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/pasta_rs_50"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="250dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/panzenella_rs_120"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/panzenella_rs_120"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="270dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/mushroom_risotto_rs_330"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/mushroom_risotto_rs_330"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="259dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/bruschetta_rs_450"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/bruschetta_rs_450"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName11" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName13"
+        android:layout_width="259dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/lasagne_rs_399"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/lasagne_rs_399"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName12" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName14"
+        android:layout_width="251dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/masala_mac_rs_110"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/masala_mac_rs_110"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName13" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="99dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/FfthPageButton1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="100dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/FifthPageButton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.584"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName5"
+        app:layout_constraintTop_toBottomOf="@+id/button16" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/FifthPageButton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button17" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="104dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/FifthPageButton4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName12"
+        app:layout_constraintTop_toBottomOf="@+id/button18" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="106dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/FifthPageButton6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.803"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName14"
+        app:layout_constraintTop_toBottomOf="@+id/button21" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="104dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/FifthPageButton5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName13"
+        app:layout_constraintTop_toBottomOf="@+id/button19" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="88dp"
+        android:layout_height="54dp"
+        android:text="@string/ItalianEmoji"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.399"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+</androidx.constraintlayout.widget.ConstraintLayout>
