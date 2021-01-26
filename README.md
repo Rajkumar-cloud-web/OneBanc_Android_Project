@@ -1,5 +1,5 @@
 # OneBanc_Android_Project
-This Is a Restaurant App For Android.
+## This Is a Restaurant App For Android.
 
 # How to run the Project?
 ## Go to the apk folder , take the apk file and put in your android phone
